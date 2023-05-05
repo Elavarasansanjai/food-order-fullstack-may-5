@@ -8,7 +8,31 @@ import Register from './pages/Register';
 import ContectPage from './pages/contectPage';
 import MenuPage from './pages/menuPage';
 import AboutPage from './pages/aboutPage';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import Cart from './pages/cart';
 import Cart from './pages/cart';
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -19,9 +43,9 @@ function App() {
         { path: 'login', element: <Login /> },
         { path: 'register', element: <Register /> },
         { path: 'contect', element: <ContectPage /> },
-        { path: 'menu', element: <MenuPage />  },
+        { path: 'menu', element: <MenuPage /> },
         { path: 'about', element: <AboutPage /> },
-        { path: 'cart', element: <Cart/> },
+        { path: 'cart', element: <Cart /> },
       ],
     },
   ]);
